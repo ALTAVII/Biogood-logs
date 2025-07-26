@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Logs</title>
+  <style>
+    body { font-family: monospace; background: #111; color: #0f0; padding: 20px; }
+    pre { background: #222; padding: 10px; border-radius: 5px; white-space: pre-wrap; }
+    form { margin-top: 20px; }
+    button { background: #900; color: #fff; border: none; padding: 10px 20px; cursor: pointer; }
+  </style>
+</head>
+<body>
+  <h1>Logs</h1>
+  <pre><%= logs %></pre>
+  <form action="/clear" method="POST">
+    <button>Vider les logs</button>
+  </form>
+</body>
+</html>
